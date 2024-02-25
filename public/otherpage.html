@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The other page</title>
+</head>
+<body>
+<main>
+    <ul>
+        <!-- This is a html comment, the browser will ignore these -->
+        <!-- <a href=... is a link, you can use 'absolute paths' like <a href="http://localhost:3000/somepath">some path</a>, -->
+        <!-- or you can have 'relative paths' like <a href="/otherpage.html">other page</a> -->
+        <!-- If you change the port only the relative path will still work -->
+        <li><a href="http://localhost:3000/">home</a></li>
+        <li><a href="http://localhost:3000/somepath">some path</a></li>
+        <li><a href="/otherpage.html">other page</a></li>
+        <li><a href="http://localhost:3000/hello">hello</a></li>
+    </ul>
+    <h1>This is the page you reach when going to <a href="http://localhost:3000/otherpage.html">http://localhost:3000/otherpage.html</a></h1>
+    <h2>Other pages does not automatically have the same kind of 'magic' as index.html</h2>
+    <p>Index is usually the 'main' page in the folder it's in. This one is not 'main' page in 'somepath'</p>
+</main>
+</body>
+</html>
