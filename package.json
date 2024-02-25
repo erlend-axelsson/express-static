@@ -1,0 +1,27 @@
+{
+  "name": "express-static",
+  "version": "1.0.0",
+  "description": "Example scaffolding for a static file express server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlend-axelsson/express-static.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Erlend Axelsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erlend-axelsson/express-static/issues"
+  },
+  "homepage": "https://github.com/erlend-axelsson/express-static#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
